@@ -38,7 +38,7 @@ unzip models.zip
 ```
 
 #### 1.1 Train a Learnable Task Vector [optional]
-Train a task vector for a specified function class. This process first generates a dataset of size $100 \times \texttt{batch\_size}$, then trains the LTV layer on it. Example usage:
+Train a task vector for a specified function class. This process first generates a dataset of size $100 \times \texttt{batch size}$, then trains the LTV layer on it. Example usage:
 ```
 cd src
 python regression/train.py --task linear_regression --seq_len 71 --batch_size 512 --lr 5e-5
